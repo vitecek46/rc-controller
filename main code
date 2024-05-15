@@ -1,0 +1,14 @@
+from kivy.app import app
+from kivy.uix.label import Label
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.button import Button
+
+class MyApp(App):
+    def build(self):
+        button = Button(text= '>')
+        return Label(text='Hello World')
+    
+        layout.add_widget(button)
+    
+if __name__ == '__main__':
+    MyApp().run()   
